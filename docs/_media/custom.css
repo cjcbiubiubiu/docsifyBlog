@@ -1,0 +1,30 @@
+section.cover .cover-main {
+  z-index: 100;
+}
+
+section.cover.has-mask .mask {
+  background-color: #fff;
+  opacity: 0.1 !important;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+section.cover h1 .anchor span {
+  font-family: "Lobster", cursive;
+  color: #000;
+}
+
+section.cover .anchor span {
+  color: var(--theme-color);
+}
+
+section.cover p {
+    color: var(--theme-color);
+}
+
+/*简介下面的p标签*/
+.markdown-section blockquote p {
+  color:  var(--theme-color);
+}
